@@ -1,0 +1,50 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+
+\title{ISOM3360 Assignment: Decision Tree}
+\author{Zhang Yichen}
+
+\begin{document}
+\maketitle
+
+\section{Answer} 
+\noindent The feature \textbf{\textit{Snow}} should be the first split condition for root node as it will creat a highest information gain after split.
+
+\section{Procedures}
+According to ID3 algorithm, the feature to split the root should be able to split it into subsets for which the information gain is maximum. Hence, I will compare the information gain by using different feature as the root node splitting condition. I denote the root node set as \textbf{\textit{S}} and the two subsets as \textbf{\textit{T$_1$}} and \textbf{\textit{T$_2$}}.
+
+
+\subsection*{Select \textbf{\textit{Snow}} as the root node} 
+\begin{align*}
+        IG(feature = \textbf{\textit{Snow}}, \textbf{\textit{S}}) &= H(\textbf{\textit{S}}) - p(\textbf{\textit{T$_1$}})H(\textbf{\textit{T$_1$}}) - p(\textbf{\textit{T$_2$}})H(\textbf{\textit{T$_2$}}) \\
+        &= -(\frac{6}{10}\log_2(\frac{6}{10})+\frac{4}{10}\log_2(\frac{4}{10})) + \frac{6}{10}*(\frac{1}{6}\log_2(\frac{1}{6}) \nonumber \\
+        & \qquad +\frac{5}{6}\log_2(\frac{5}{6})) + \frac{4}{10}*(\frac{1}{4}\log_2(\frac{1}{4})+\frac{3}{4}\log_2(\frac{3}{4})) \\
+        &= 0.971 - 0.390 - 0.325 \\
+        &= \textbf{0.256}
+\end{align*}
+\subsection*{Select \textbf{\textit{Season}} as the root node}
+\begin{align*}
+    IG(feature = \textbf{\textit{Season}}, \textbf{\textit{S}}) &= H(\textbf{\textit{S}}) - p(\textbf{\textit{T$_1$}})H(\textbf{\textit{T$_1$}}) - p(\textbf{\textit{T$_2$}})H(\textbf{\textit{T$_2$}}) \\
+    &= -(\frac{6}{10}\log_2(\frac{6}{10})+\frac{4}{10}\log_2(\frac{4}{10})) + \frac{5}{10}*(\frac{1}{5}\log_2(\frac{1}{5}) \nonumber \\
+    & \qquad +\frac{4}{5}\log_2(\frac{4}{5})) + \frac{5}{10}*(\frac{2}{5}\log_2(\frac{2}{5})+\frac{3}{5}\log_2(\frac{3}{5})) \\
+    &= 0.971 - 0.361 - 0.485 \\
+    &= \textbf{0.125}
+\end{align*} 
+\subsection*{Select \textbf{\textit{Weather}} as the root node}
+\begin{align*}
+    IG(feature = \textbf{\textit{Weather}}, \textbf{\textit{S}}) &= H(\textbf{\textit{S}}) - p(\textbf{\textit{T$_1$}})H(\textbf{\textit{T$_1$}}) - p(\textbf{\textit{T$_2$}})H(\textbf{\textit{T$_2$}}) \\
+    &= -(\frac{6}{10}\log_2(\frac{6}{10})+\frac{4}{10}\log_2(\frac{4}{10})) + \frac{4}{10}*(\frac{2}{4}\log_2(\frac{2}{4}) \nonumber \\
+    & \qquad +\frac{2}{4}\log_2(\frac{2}{4})) + \frac{6}{10}*(\frac{2}{6}\log_2(\frac{2}{6})+\frac{4}{6}\log_2(\frac{4}{6})) \\
+    &= 0.971 - 0.4 - 0.551 \\
+    &= \textbf{0.020}
+\end{align*} 
+
+\noindent Therefore,
+\begin{align*}
+    IG(feature = \textbf{\textit{Snow}}, \textbf{\textit{S}}) > IG(feature = \textbf{\textit{Season}}, \textbf{\textit{S}}) > IG(feature = \textbf{\textit{Weather}}, \textbf{\textit{S}})
+\end{align*} 
+
+\noindent The feature \textbf{\textit{Snow}} should be the first split condition for root node as it will creat a highest information gain after split.
+
+\end{document}

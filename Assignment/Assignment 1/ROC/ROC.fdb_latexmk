@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1584992675 "/home/eason/course_ws/ISOM3360/Assignment/Assignment 1/ROC/ROC.tex" "/home/eason/course_ws/ISOM3360/Assignment/Assignment 1/ROC/ROC.pdf" "ROC" 1584992675
+["pdflatex"] 1585059325 "/home/eason/course_ws/ISOM3360/Assignment/Assignment 1/ROC/ROC.tex" "/home/eason/course_ws/ISOM3360/Assignment/Assignment 1/ROC/ROC.pdf" "ROC" 1585059343
   "/etc/texmf/web2c/texmf.cnf" 1584981214 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/eason/course_ws/ISOM3360/Assignment/Assignment 1/ROC/ROC.aux" 1584992675 76 a60cb1e2e4535520305eed4fe787c23e ""
-  "/home/eason/course_ws/ISOM3360/Assignment/Assignment 1/ROC/ROC.tex" 1584992675 13846 fce8cf3b6a950eb49331c91c39fabc22 ""
+  "/home/eason/course_ws/ISOM3360/Assignment/Assignment 1/ROC/ROC.aux" 1585059325 76 a60cb1e2e4535520305eed4fe787c23e ""
+  "/home/eason/course_ws/ISOM3360/Assignment/Assignment 1/ROC/ROC.tex" 1585059342 13849 3c5fd4693d0718bd87e3d491c30b3fe4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -58,12 +58,12 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1584988771 127853 b41f58aff49fe1af38af8d065f49d51c ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1584981225 724918 edc16e1dafa513f840a7537a17505f79 ""
   "Assignment.PNG" 1584989121 19257 60f6362ae7e0ebdabdc3b721d4bfac3f ""
-  "ROC.aux" 1584992675 76 a60cb1e2e4535520305eed4fe787c23e ""
+  "ROC.aux" 1585059325 76 a60cb1e2e4535520305eed4fe787c23e ""
   "ROC.png" 1584992506 16111 45afd059df84eb09db5767142e9046ab ""
-  "ROC.tex" 1584992675 13846 fce8cf3b6a950eb49331c91c39fabc22 ""
+  "ROC.tex" 1585059342 13849 3c5fd4693d0718bd87e3d491c30b3fe4 ""
   (generated)
-  "ROC.aux"
-  "ROC.log"
-  "/home/eason/course_ws/ISOM3360/Assignment/Assignment 1/ROC/ROC.pdf"
   "ROC.pdf"
+  "ROC.aux"
   "/home/eason/course_ws/ISOM3360/Assignment/Assignment 1/ROC/ROC.log"
+  "/home/eason/course_ws/ISOM3360/Assignment/Assignment 1/ROC/ROC.pdf"
+  "ROC.log"

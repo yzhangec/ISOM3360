@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\def\P(#1){\Phelper#1|\relax\Pchoice(#1)}
+\def\Phelper#1|#2\relax{\ifx\relax#2\relax\def\Pchoice{\Pone}\else\def\Pchoice{\Ptwo}\fi}
+\def\Pone(#1){\Pr\left( #1 \right)}
+\def\Ptwo(#1|#2){\Pr\left( #1 \,\middle|\, #2 \right)}
+\def\Pr{\mathbf{Pr}}
+
+\setlength\parindent{0pt}
+
+
+\title{ISOM3360 Assignment: Naïve Bayes}
+\author{Zhang Yichen}
+
+\begin{document}
+\maketitle
+
+\section{Answer} 
+Someone with poor GPA and lots of effort should be hired with decision threshold 0.5.
+
+\section{Procedures}
+\[\P(Hirable=Yes|GPA=poor,Effort=lots)\]
+\[=\frac{\P(Hirable=Yes,GPA=poor,Effort=lots)}{\P(GPA=poor,Effort=lots)}\]
+\[=\frac{\frac{1}{8}}{\frac{1}{8}}\]
+\[=1\]
+
+As 1 $>$ $threshold$ = 0.5, Someone with poor GPA and lots of effort should be hired.
+
+\end{document}
